@@ -4,7 +4,6 @@ import { useState } from 'react'
 import {
     Dialog,
     DialogPanel,
-    Popover,
     PopoverGroup,
 } from '@headlessui/react'
 import {

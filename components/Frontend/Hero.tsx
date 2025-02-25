@@ -1,6 +1,8 @@
 import { Pill } from "lucide-react";
 import SearchBar from "./SearchBar";
 import TransitionText from "./transitionText";
+import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   const TEXTS = [
@@ -49,19 +51,19 @@ const Hero = () => {
 
               {/* CTA Buttons */}
               <div className="mt-6 flex gap-4">
-                <a
+                <Link
                   href="/#"
                   className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-3 text-base font-medium text-white hover:bg-blue-700 transition-all lg:px-7"
                 >
                   Need Doctor Urgently
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/#"
                   className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-gray-50 hover:text-blue-500 dark:text-gray-300 transition-all"
                 >
                   <Pill className="h-5 w-5 text-blue-600 mr-2" />
                   Need a Refill
-                </a>
+                </Link>
               </div>
 
               {/* Stats Section */}
@@ -83,7 +85,7 @@ const Hero = () => {
           {/* Right Section (Image) */}
           <div className="w-full lg:w-6/12 flex justify-end">
             <div className="relative z-10">
-              <img
+              <Image
                 src="https://cdn.tailgrids.com/1.0/assets/images/hero/hero-image-01.png"
                 alt="Doctor consulting patient"
                 className="max-w-full lg:max-w-[480px] drop-shadow-lg"
