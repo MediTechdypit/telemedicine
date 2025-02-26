@@ -89,6 +89,8 @@ const Hero = () => {
                 src="https://cdn.tailgrids.com/1.0/assets/images/hero/hero-image-01.png"
                 alt="Doctor consulting patient"
                 className="max-w-full lg:max-w-[480px] drop-shadow-lg"
+                width={480}
+                height={320}
               />
 
               {/* Decorative Background Elements */}
