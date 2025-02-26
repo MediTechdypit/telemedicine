@@ -21,7 +21,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="bg-blue-950 ">
+    <div className="bg-blue-950 mt-[140px]  ">
       <div className="relative pb-[110px] pt-[50px] dark:bg-dark lg:pt-[50px] max-w-6xl mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left Section (Text & Search Bar) */}
@@ -36,12 +36,12 @@ const Hero = () => {
 
               <p className="mb-8 max-w-[500px] text-lg text-gray-100 dark:text-gray-50">
                 Skip the wait! <span className="text-3xl font-extrabold relative">
-  <span className=" text-5xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 drop-shadow-[4px_4px_0px_rgba(0,0,0,0.3)]">
-    M
-  </span>
-  ediHub
-</span>
- connects you to top doctors instantly
+                  <span className=" text-5xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 drop-shadow-[4px_4px_0px_rgba(0,0,0,0.3)]">
+                    M
+                  </span>
+                  ediHub
+                </span>
+                connects you to top doctors instantly
                 with real-time consultations and personalized care - because
                 your health deserves convenience.
               </p>
