@@ -6,7 +6,7 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <section>
+    <section className=" overflow-x-hidden">
         <Hero /> 
         <Brands />
         <TabbedSection />
