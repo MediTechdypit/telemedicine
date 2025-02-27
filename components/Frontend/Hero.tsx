@@ -7,10 +7,8 @@ import Image from "next/image";
 const Hero = () => {
   const TEXTS = [
     "Acupuncture",
-    "Chiropractor",
     "Dental",
     "Physiotherapy",
-    "Aromatherapy",
     "Homeopathy",
     "Orthopedic",
     "Osteopathy",
