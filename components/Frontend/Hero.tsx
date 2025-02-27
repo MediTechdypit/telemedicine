@@ -27,10 +27,10 @@ const Hero = () => {
           {/* Left Section (Text & Search Bar) */}
           <div className="w-full lg:w-6/12">
             <div className="hero-content">
-              <h1 className="mb-6 text-4xl font-bold leading-tight text-gray-50 dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl flex flex-wrap items-center gap-3">
+              <h1 className="mb-6 text-4xl font-bold leading-tight text-gray-50 dark:text-white sm:text-[42px] lg:text-[45px] xl:text-5xl flex flex-wrap items-center gap-3">
                 <span>Book Your</span>
                 <br />
-                <TransitionText TEXTS={TEXTS} className="text-blue-500" />
+                <TransitionText TEXTS={TEXTS} className="text-amber-600/80" />
                 <span> Session Now</span>
               </h1>
 
