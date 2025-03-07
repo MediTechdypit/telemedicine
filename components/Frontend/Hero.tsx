@@ -19,7 +19,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="bg-blue-950 mt-[140px]  ">
+    <div className="bg-blue-950 ">
       <div className="relative pb-[110px] pt-[50px] dark:bg-dark lg:pt-[50px] max-w-6xl mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left Section (Text & Search Bar) */}
