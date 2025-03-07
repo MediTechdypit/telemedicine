@@ -48,9 +48,10 @@ export default function DoctorListCuso({
       dotListClass="custom-dot-list-style"
       itemClass="px-4"
     >
-      {doctors.map((doctor: any, i: number) => {
-        return <DoctorCard key={i} isInPerson={isInPerson}  />;
-      })}
+      {doctors.map((doctor, i) => {
+         return <DoctorCard key={i} isInPerson={isInPerson} />;
+       })}
+
     </Carousel>
   );
 }
