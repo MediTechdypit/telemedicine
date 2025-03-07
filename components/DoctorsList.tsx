@@ -1,6 +1,4 @@
-
-import { link } from 'fs';
-import DoctorCard from './DoctorCard';
+"use client"
 import SectionHeading from './SectionHeading';
 import ToggleButton from './ToggleButton';
 import Link from 'next/link';

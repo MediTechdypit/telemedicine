@@ -8,9 +8,10 @@ export default function DoctorListCuso({
   doctors,
   isInPerson,
 }: {
-  doctors: any[];
+  doctors: Doctor[];
   isInPerson?: boolean;
-}) {
+})
+ {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
